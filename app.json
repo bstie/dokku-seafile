@@ -1,0 +1,4 @@
+{
+    "name": "example.org v0.1.0",
+    "description": "Seafile server deployed via Dockerfile to Dokku"
+}
