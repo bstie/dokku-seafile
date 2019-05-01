@@ -34,7 +34,7 @@ dokku docker-options:add example.com run "-v /opt/seafile-data:/shared"
 
 ```bash
 # add dokku remote
-git remote add dokku dokku@dokku.stiegel.org:example.com
+git remote add dokku dokku@dokku.example.com:example.com
 # deploy
 git push dokku master
 ```
@@ -43,7 +43,7 @@ git push dokku master
 
 ```bash
 # set the email address for the certificate
-dokku config:set --no-restart example.com DOKKU_LETSENCRYPT_EMAIL=benjaminstiegel@gmail.com
+dokku config:set --no-restart example.com DOKKU_LETSENCRYPT_EMAIL=yourmail@example.com
 # generate the certificate
 dokku letsencrypt example.com
 ```
