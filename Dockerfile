@@ -1,6 +1,6 @@
 FROM seafileltd/seafile:latest
 
-ENV SEAFILE_SERVER_HOSTNAME=seafile.stiegel.org
+ENV SEAFILE_SERVER_HOSTNAME=seafile.example.org
 ENV SEAFILE_ADMIN_EMAIL=mustermann@example.com
 
 EXPOSE 80
